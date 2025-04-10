@@ -25,9 +25,9 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message, isAi }) => {
       </div>
       <div className="flex-1">
         {isAi ? (
-          <ReactMarkdown className="prose prose-sm max-w-none">
-            {message}
-          </ReactMarkdown>
+          <div className="prose prose-sm max-w-none">
+            <ReactMarkdown>{message}</ReactMarkdown>
+          </div>
         ) : (
           <p className="text-gray-700">{message}</p>
         )}

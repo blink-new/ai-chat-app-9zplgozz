@@ -64,7 +64,8 @@
     "@radix-ui/react-icons": "latest",
     "openai": "latest",
     "react-markdown": "latest",
-    "tailwind-merge": "latest"
+    "tailwind-merge": "latest",
+    "@tailwindcss/typography": "latest"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
